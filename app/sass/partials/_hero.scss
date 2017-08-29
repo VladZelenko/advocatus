@@ -1,0 +1,22 @@
+.hero {
+	width: 100%;
+	min-height: 840px;
+	background: url("../../img/hero-img.png")center center no-repeat;
+	background-size: cover;
+	.row {
+		padding-top: 605px;
+		color: $secondary_font_color;
+	}
+	.name-box {
+		border-left: 2px solid $accent_color;
+		h2:first-child {
+			font: 400 65px $secondary_font;
+			margin: 0px;
+	}
+		h2:last-child {
+			font: 400 31px/36px $primary_font;
+			margin: 0px;
+		}
+	}
+	.hero-btn {margin-top: 20px;}
+}

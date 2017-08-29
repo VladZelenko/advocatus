@@ -1,0 +1,12 @@
+.hero-btn {
+	display: block;
+	width: 180px;
+	border-radius: 25px;
+	background-color: $accent_color;
+	color: $additional_color;
+	font: 400 16px/50px $secondary_font;
+	text-align: center;
+	&:hover {
+		text-decoration: none;
+	}
+}
