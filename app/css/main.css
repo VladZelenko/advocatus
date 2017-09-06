@@ -8327,6 +8327,21 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+.heder-nav {
+  background: none;
+  border: none; }
+  .heder-nav .header-menu-1 {
+    margin-top: 15px; }
+    .heder-nav .header-menu-1 li a {
+      color: #111111;
+      text-transform: uppercase; }
+      .heder-nav .header-menu-1 li a:hover, .heder-nav .header-menu-1 li a:focus {
+        color: #e8bf5d;
+        background: none;
+        text-decoration: none; }
+    .heder-nav .header-menu-1 .active {
+      border-bottom: 5px solid #e8bf5d; }
+
 .hero {
   width: 100%;
   min-height: 840px;
@@ -8346,20 +8361,36 @@ button.close {
   .hero .hero-btn {
     margin-top: 20px; }
 
-.heder-nav {
-  background: none;
-  border: none; }
-  .heder-nav .header-menu-1 {
-    margin-top: 15px; }
-    .heder-nav .header-menu-1 li a {
+.about-us {
+  width: 100%;
+  min-height: 615px;
+  padding: 80px 0 95px 0; }
+  .about-us .about-title {
+    padding: 0 20px;
+    border-left: 1px solid #e8bf5d; }
+    .about-us .about-title .title {
+      margin-top: 0px;
       color: #111111;
-      text-transform: uppercase; }
-      .heder-nav .header-menu-1 li a:hover, .heder-nav .header-menu-1 li a:focus {
-        color: #e8bf5d;
-        background: none;
-        text-decoration: none; }
-    .heder-nav .header-menu-1 .active {
-      border-bottom: 5px solid #e8bf5d; }
+      font: 400 31px "Playfair Display", sans-serif; }
+    .about-us .about-title .description {
+      max-width: 700px;
+      margin-bottom: 0px;
+      color: #666666;
+      font: 400 21px/31px "Playfair Display", sans-serif; }
+  .about-us .about-content {
+    color: #111111; }
+    .about-us .about-content .title {
+      padding: 50px 0 15px 0;
+      font: 400 21px "Playfair Display", sans-serif; }
+    .about-us .about-content .year {
+      position: relative;
+      top: 10px;
+      font: 700 20px "Open Sans", sans-serif; }
+    .about-us .about-content p {
+      font: 400 16px/21px "Open Sans", sans-serif; }
+    .about-us .about-content .description {
+      color: #666666;
+      font: 400 14px/31px "Open Sans", sans-serif; }
 
 .hero-btn {
   display: block;
